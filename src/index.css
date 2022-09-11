@@ -1,3 +1,27 @@
-body {
-  margin: 0;
+label {
+  display: block;
+  margin: 24px 16px;
+}
+
+input {
+  margin: 0 8px 0 8px;
+}
+
+textarea {
+  display: block;
+  margin: 8px 0 0 0;
+}
+
+fieldset {
+  border: 2px solid #BDDBD0;
+  border-radius: 4px;
+  margin: 20px;
+}
+
+button {
+  border-radius: 4px;
+  border: none;
+  padding: 8px;
+  margin: 0 0 20px 20px;
+  background-color: #FBB7C0;
 }
