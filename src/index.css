@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
 label {
   display: block;
   margin: 24px 16px;
 }
 
 input {
+  margin: 0 8px 0 8px;
+}
+
+select {
   margin: 0 8px 0 8px;
 }
 
@@ -24,4 +37,13 @@ button {
   padding: 8px;
   margin: 0 0 20px 20px;
   background-color: #FBB7C0;
+}
+
+legend {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Poppins', sans-serif;
 }
